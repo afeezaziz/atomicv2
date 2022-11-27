@@ -1,0 +1,12 @@
+syntax = "proto3";
+package atomic.atomic;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "atomic/x/atomic/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
